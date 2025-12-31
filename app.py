@@ -6,7 +6,6 @@ import re
 def get_birth_year(name):
     """
     指定された有名人の名前からWikipediaのInfoboxを解析し、誕生年を返す。
-    (main.pyのロジックを完全に踏襲)
     """
     url = f"https://ja.wikipedia.org/wiki/{name}"
     
@@ -88,7 +87,7 @@ def get_zodiac(year):
 
 def main():
     # タイトル表示 (print "===..." に対応)
-    st.title("=== 有名人干支チェッカー ===")
+    st.title("あの人の干支が知りたい")
 
     # 入力フォーム (input() に対応)
     name = st.text_input("干支が知りたい有名人の名前を入れてください: ")

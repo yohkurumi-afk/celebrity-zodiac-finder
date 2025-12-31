@@ -81,7 +81,7 @@ def get_zodiac(year):
     return eto_list[index]
 
 def main():
-    print("=== 有名人干支チェッカー ===")
+    print("あの人の干支が知りたい")
     name = input("干支が知りたい有名人の名前を入れてください: ")
 
     year = get_birth_year(name)
