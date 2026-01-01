@@ -109,8 +109,8 @@ def main():
                 # main.pyの出力形式（点線など）を再現して表示
                 # st.text は等幅フォントでそのまま表示するため再現性が高いです
                 output_text = f"""
-                print(f"{name} さんの生まれ年は {year}年 です")
-                print(f"{name} さんは  {zodiac_name}  年です！{zodiac_icon}")
+                {name} さんの生まれ年は {year}年 です
+                {name} さんは  {zodiac_name}  年です！{zodiac_icon}
                 """
                 st.text(output_text)
                 
