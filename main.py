@@ -91,7 +91,7 @@ def get_zodiac(year):
     return eto_list[index], eto_icon[index]
 
 def main():
-    print("=== あの人の干支が知りたい ===")
+    print(" あの人の干支が知りたい ")
     name = input("干支が知りたい有名人の名前を入れてください: ")
 
     # 関数が2つの値を返すようになったので、これで正しく受け取れます
@@ -108,7 +108,7 @@ def main():
         
         if not is_confident:
             print("ちゃんと調べてね")
-            
+
     else:
         print("ごめん、分からへん。その人有名ちゃうやろ？")
 

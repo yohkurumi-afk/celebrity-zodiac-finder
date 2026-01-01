@@ -88,7 +88,7 @@ def get_zodiac(year):
 def main():
     st.title("あの人の干支が知りたい")
 
-    name = st.text_input("干支が知りたい有名人の名前を入れてください: ")
+    name = st.text_input("干支が知りたい有名人の名前(通称)を入れてください: ")
 
     if st.button("調べる"):
         if not name:
